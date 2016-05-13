@@ -7,10 +7,10 @@ Imagine you want to place items in a grid, but each item has different size and 
 
 With FlexboxLayout, you can achieve the following grid with a single layout file.
 
-<img src="https://raw.githubusercontent.com/google/flexbox-layout/master/assets/fluid-grid/nexus9-full-width.png" height="600">
-<img src="https://raw.githubusercontent.com/google/flexbox-layout/master/assets/fluid-grid/nexus9-half.png" height="600">
-<img src="https://raw.githubusercontent.com/google/flexbox-layout/master/assets/fluid-grid/nexus9-one-fourth.png" height="600">
-<img src="https://raw.githubusercontent.com/google/flexbox-layout/master/assets/fluid-grid/nexus9-three-fourth.png" height="600">
+<img src="https://raw.githubusercontent.com/google/flexbox-layout/master/assets/fluid-grid/nexus9-full-width.png" height="480">
+<img src="https://raw.githubusercontent.com/google/flexbox-layout/master/assets/fluid-grid/nexus9-half.png" height="480">
+<img src="https://raw.githubusercontent.com/google/flexbox-layout/master/assets/fluid-grid/nexus9-one-fourth.png" height="480">
+<img src="https://raw.githubusercontent.com/google/flexbox-layout/master/assets/fluid-grid/nexus9-three-fourth.png" height="480">
 
 
 The layout file for the grid above looks like:
