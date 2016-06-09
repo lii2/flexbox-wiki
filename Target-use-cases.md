@@ -2,6 +2,12 @@ FlexboxLayout is not a replacement for the existing layouts (such as LinearLayou
 It offers another option to achieve a particular design more easily than other existing layouts.
 This page introduces some of those where using the FlexboxLayout is more beneficial.
 
+##### Table of Contents  
+[Fluid Grid](#FluidGrid)  
+[Under The Hood](#UnderTheHood) 
+[Similar Situation](#SimilarSituation)  
+
+<a name="FluidGrid"/>
 # Fluid Grid
 Imagine you want to place items in a grid, but each item has different size and you want to reflow items to avoid overflowing its parent. Like the example explained in the [Grid - Full-width vs Centered](https://www.google.com/design/spec/layout/responsive-ui.html#responsive-ui-grid) in the Material design guide lines.
 
@@ -104,7 +110,7 @@ The layout file for the grid above looks like:
         app:layout_flexGrow="1" />
 </com.google.android.flexbox.FlexboxLayout>
 ```
-
+<a name="UnderTheHood"/>
 ## Under the hood
 Looking at the `flexDirection` attribute, you can find `row` is set as the `flexDirection` attribute (Actually it's not set, so the default value is used).
 Also you can find `wrap` is set for the `flexWrap` attribute.
@@ -114,7 +120,7 @@ As for the initial length of each flex item (TextView in this case) along the ma
 
 After all TextViews are collected, by looking at the `layout_flexGrow` attribute, you can find `1` is set for all TextViews.
 So each item tries to expand if positive free space is given for each flex line.
-
+<a name="SimilarSituation"/>
 ## Similar situation
 The example above uses split screens to test the FlexboxLayout under various screen width, but exactly the same behavior applies to the situation where the app runs on various devices (including phones, tablets) and orientations (portlait, landscape).
 
