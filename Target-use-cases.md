@@ -2,10 +2,13 @@ FlexboxLayout is not a replacement for the existing layouts (such as LinearLayou
 It offers another option to achieve a particular design more easily than other existing layouts.
 This page introduces some of those where using the FlexboxLayout is more beneficial.
 
-##### Table of Contents  
-[Fluid Grid](#FluidGrid)  
-[Under The Hood](#UnderTheHood) 
-[Similar Situation](#SimilarSituation)  
+
+| Table of Contents| 
+| ------------- |
+| [Fluid Grid](#FluidGrid)      |
+| [Under The Hood](#UnderTheHood)     |
+| [Similar Situation](#SimilarSituation) |
+
 
 <a name="FluidGrid"/>
 # Fluid Grid
