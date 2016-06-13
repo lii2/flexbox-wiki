@@ -3,13 +3,6 @@ It offers another option to achieve a particular design more easily than other e
 This page introduces some of those where using the FlexboxLayout is more beneficial.
 
 
-| Table of Contents| 
-| ------------- |
-| [Fluid Grid](#FluidGrid)      |
-| [Under The Hood](#UnderTheHood)     |
-| [Similar Situation](#SimilarSituation) |
-
-
 <a name="FluidGrid"/>
 # Fluid Grid
 Imagine you want to place items in a grid, but each item has different size and you want to reflow items to avoid overflowing its parent. Like the example explained in the [Grid - Full-width vs Centered](https://www.google.com/design/spec/layout/responsive-ui.html#responsive-ui-grid) in the Material design guide lines.
